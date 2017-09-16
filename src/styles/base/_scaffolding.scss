@@ -1,0 +1,18 @@
+@import '../vars';
+@import url('https://fonts.googleapis.com/css?family=Nixie+One|Roboto');
+
+// Page setup
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font: {
+        family: $font;
+        size: $font-16px; // rem sizing based on 16px
+    }
+
+    cursor: default;
+    box-sizing: border-box;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+}
